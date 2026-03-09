@@ -1,0 +1,29 @@
+.stats-charts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
+}
+
+.chart-box {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-box h3 {
+  margin: 0 0 20px 0;
+  color: #1e293b;
+  font-size: 16px;
+  align-self: flex-start;
+  font-weight: 600;
+}
+
+.chart-box.full-width {
+  grid-column: 1 / -1;
+}

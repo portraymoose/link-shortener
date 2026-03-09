@@ -1,0 +1,91 @@
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 2px rgba(47, 111, 237, 0.15);
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition:
+    transform 0.05s ease,
+    opacity 0.15s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.result {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.result a {
+  display: block;
+  color: #2f6fed;
+  margin-top: 6px;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.result a:hover {
+  opacity: 0.7;
+}
+
+.result-card p {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.result-card a {
+  color: #2563eb;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.result-card a:hover {
+  text-decoration: underline;
+}
+
+.copy-btn {
+  background: none;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1;
+}
+
+.copy-btn:hover {
+  background-color: #f0f0f0;
+  border-color: #aaa;
+  color: #000;
+}

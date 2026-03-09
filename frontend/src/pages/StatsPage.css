@@ -1,0 +1,83 @@
+.stats-page {
+  background: #f6f6f6;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.stats-content {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.stats-header {
+  background: white;
+  border: 1px solid #dcdcdc;
+  padding: 28px;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.stats-header h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 28px;
+  color: #1e293b;
+  word-break: break-all;
+}
+
+.stats-header h1 a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.stats-header h1 a:hover {
+  text-decoration: underline;
+}
+
+.destination {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  color: #666;
+  word-break: break-all;
+}
+
+.destination strong {
+  color: #475569;
+}
+
+.destination a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.destination a:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #64748b;
+}
+
+.total-clicks {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e1e1e;
+  word-break: break-all;
+  letter-spacing: 0.02em;
+}
