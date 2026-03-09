@@ -70,8 +70,8 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone <url-вашего-репозитория>
-cd <название-папки>
+git clone https://github.com/portraymoose/link-shortener
+cd link-shortener
 ```
 
 ### 2. Настройте базу данных
